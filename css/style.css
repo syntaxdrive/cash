@@ -257,9 +257,10 @@ header ul li {
     padding: 2rem;
     border-radius: 2rem;
    
-   
-   
 }
+   
+   
+
 
 .panel-heading {
     border-bottom: 1px solid #ccc;
@@ -531,4 +532,794 @@ body {
     color: white;
     font-family: 'ADLaM Display', cursive;
     font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+/* connect.css */
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-content2 {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    height: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+h2{
+    text-align:center;
+}
+
+ /* Apply some basic styles to the table */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header row */
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the table header cells */
+thead td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Add some hover effect to the table rows */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style the table cells in the data rows */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor:pointer
+}
+
+/* Style the first column with the '#' symbol differently */
+td:first-child {
+    font-weight: bold;
+}
+.pay{
+    margin-top: 2rem;
+    text-align:center;
+    background: #ddd;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.form1{
+    display: grid;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.sel1{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+input[type=email]{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.sel2{
+    border-radius: .5rem;
+    padding: .5rem;
+}
+input[type=submit]{
+    padding: .5rem;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 
+}
+.checkmark{
+    width: 4rem;
+    height: 4rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+}
+.btm{
+    position: fixed;
+    bottom: 2rem;
+}
+
+
+
+
+
+/* card.css */
+
+.modal {  
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-content2 {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    height: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+ } 
+
+ input[type=email]{
+    padding: .5rem;
+    border-radius: .5rem;
+ }
+ .sel3{
+    border-radius: .5rem;
+    padding: .5rem;
+ }
+ input[type=submit]{
+    padding: .5rem;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 
+ }
+ .checkmark2{
+    width: 3rem;
+    height: 3rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+ }
+.btm2{
+    position: fixed;
+    bottom: 2rem;
+}
+.asd2{
+    border: 1px solid #4f4e4e;
+    border-radius: 1rem;
+    padding: .5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    color: #4f4e4e;
+
+}
+
+/* paymentadd.css */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-content2 {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    height: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+
+
+
+ /* Apply some basic styles to the table */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header row */
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the table header cells */
+thead td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Add some hover effect to the table rows */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style the table cells in the data rows */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the first column with the '#' symbol differently */
+td:first-child {
+    font-weight: bold;
+}
+.form4{
+    display: grid;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.sel4{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+input[type=email]{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.sel6{
+    border-radius: .5rem;
+    padding: .5rem;
+}
+input[type=submit]{
+    padding: .5rem;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 
+}
+.checkmark7{
+    width: 4rem;
+    height: 4rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+}
+.btm7{
+    position: fixed;
+    bottom: 2rem;
+}
+.but2{
+background: #28c101;
+color: white;
+padding: .8rem;
+border: none;
+border-radius: .5rem;
+width: 93%;
+margin-top: 2rem;
+}
+
+
+
+
+/* recentpayouts.css */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-content2 {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    height: 100%;
+    
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+ /* Apply some basic styles to the table */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header row */
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the table header cells */
+thead td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Add some hover effect to the table rows */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style the table cells in the data rows */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the first column with the '#' symbol differently */
+td:first-child {
+    font-weight: bold;
+}
+.form8{
+    display: grid;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+
+
+.sel8{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+input[type=email]{
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.sel10{
+    border-radius: .5rem;
+    padding: .5rem;
+}
+input[type=submit]{
+    padding: .5rem;
+    border: none;
+    background: black;
+    color: white;
+    border-radius:
+}
+.checkmark11{
+    width: 4rem;
+    height: 4rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+}
+.btm11{
+    position: fixed;
+    bottom: 2rem;
+}
+
+
+
+
+/* withdraw.css */
+
+
+
+input[type=text]{
+    width: 76%;
+    border-radius: .5rem;
+    border: 1px solid #000; 
+    margin-bottom: 0.5rem;
+}
+input[type=email]{
+    padding: .5rem;
+    width: 76%;
+    border-radius: .5rem;
+    border: 1px solid #000;
+    margin-bottom: 0.5rem;
+}
+.but30{
+    width: 82%;
+    background: #28c101;
+    padding: .6rem;
+    border: none;
+    border-radius: 2rem;
+
+    margin: auto;
+}
+.btm24{
+    position: fixed;
+    bottom: 2rem;
+}
+.divv{
+    margin-top: -80px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.checkmark40{
+    width: 4rem;
+    height: 4rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+}
+.btm44{
+    position: fixed;
+    bottom: 2rem;
+}
+.asd45{
+    color: #4f4e4e;
+    border: 1px solid #4f4e4e;
+    border-radius: 1rem;
+    padding: .5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    width: 87vw;
+}
+.close-modal{
+    color: white;
+    padding: .8rem;
+    border: none;
+    border-radius: .5rem;
+    width: 89%;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    background: #28c101;
+}
+.asd111{
+    color: #4f4e4e;
+    border: 1px solid #4f4e4e;
+    border-radius: 1rem;
+    padding: .5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+.close-modal{
+    color: white;
+    padding: .8rem;
+    border: none;
+    border-radius: .5rem;
+    width: 89%;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    background: #28c101;
+}
+.checkmark100{
+    width: 4rem;
+    height: 4rem;
+    fill: #28c101;
+    margin-bottom: 1rem;
+}
+.btm223{
+    position: fixed;
+    bottom: 2rem;
+}
+.asd232{
+    border: 1px solid #4f4e4e;
+    border-radius: 1rem;
+    padding: .5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+.close-modal{
+    background: #28c101;
+    color: white;
+    padding: .8rem;
+    border: none;
+    border-radius: .5rem;
+    width: 89%;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+#cashapp-amount-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+#custom-cashapp-amount {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background: #ccc;
+    border-radius: 1.5rem;
+}
+
+.withdraw-amount {
+    padding: 1rem;
+    width: 8rem;
+    border-radius: .5rem;
+    border: none;
+    background: #28c101;
+    margin-top: 1.5rem;
+    color: white;
+    font-weight: bolder
+}
+
+#bank-amount-input,
+#card-amount-input {
+
+    margin-top: 1rem;
+    display: grid;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+#card-amount,
+#bank-amount {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid #333;
+    font-size: 1rem;
+}
+
+#card-details,
+#bank-details {
+    display: grid;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+#card-details input,
+#bank-details input {
+    padding: .5rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid #000;
+    margin-bottom: 0.5rem;
+
+}
+
+#bank-amount-submit,
+#card-amount-submit,
+.withdraw-button {
+
+    padding: .5rem;
+    border-radius: 2rem;
+    background: #28c101;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.item-container {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.boku {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+}
+
+#main {
+    margin-top: 50%;
+
+}
+
+.item-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    /* Center the items horizontally */
+}
+
+
+.withdrawal-box {
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: 7rem;
+    height: 3rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #80e069;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.withdrawal-box:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+.withdrawal-modal {
+    /* Modal styles here */
+   
+}
+
+
+/* Style for the withdrawal modals */
+.withdrawal-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modals {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2rem;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 90vw;
+    height: 17rem;
+}
+
+.modal-content2 {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    height: 100%;
+}
+
+/* Style for the custom amount input field */
+#custom-amount-input,
+#cashapp-details,
+#bank-details,
+#card-details {
+    display: none;
+}
+
+/* Add more styling as needed */
+.loader svg {
+    position: fixed;
+    top: 41%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 9999;
+    /* Adjust the z-index as needed to ensure it's above other elements */
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background overlay */
+    width: 100%;
+    height: 100%;
+    fill: #28c101;
+    width: 80px;
+    /* Adjust the size as needed */
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

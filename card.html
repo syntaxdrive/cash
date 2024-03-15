@@ -1,54 +1,12 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&amp;family=Inter&amp;family=Roboto&amp;family=Rubik+Iso&amp;family=Ruda&amp;family=Ubuntu&amp;display=swap" rel="stylesheet">
-<style>
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 100;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-
-    .modal-content {
-        background-color: white;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 70%;
-    }
-
-    .modal-content2 {
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 100%;
-        display: block;
-        position: absolute;
-        background: white;
-        height: 100%;
-    }
-
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .close:hover {
-        color: black;
-    }
-</style></head>
+</head>
 
 
 <body>
@@ -225,54 +183,16 @@
                     </tr>
                 </thead>
             </table>
-            <style>
-                /* Apply some basic styles to the table */
-                table {
-                    width: 100%;
-                    border-collapse: collapse;
-                }
+            
 
-                /* Style the table header row */
-                thead {
-                    background-color: #333;
-                    color: #fff;
-                }
 
-                /* Style the table header cells */
-                thead td {
-                    padding: 10px;
-                    text-align: left;
-                }
 
-                /* Add some hover effect to the table rows */
-                tbody tr:hover {
-                    background-color: #f5f5f5;
-                }
-
-                /* Style the table cells in the data rows */
-                td {
-                    padding: 8px;
-                    border-bottom: 1px solid #ddd;
-                }
-
-                /* Style the first column with the '#' symbol differently */
-                td:first-child {
-                    font-weight: bold;
-                }
-            </style>
             <br>
             <p>You do not have any cards at the moment, You can request one and get it delivered to your address.
                 Click the button below to place an order</p>
             <ul>
                             </ul>
-            <button style="    background: black;
-    width: 100%;
-    color: white;
-    padding: .5rem;
-    border-radius: .5rem;
-    font-size: 1rem;
-    font-weight: bolder;
-    margin-top: 1rem;" id="orderButton">Make an Order</button>
+            <button class="b2" id="orderButton">Make an Order</button>
         </div>
     </div>
 
@@ -281,15 +201,10 @@
         <div class="modal-content">
             <span class="close">×</span>
             <h2>Make an Order</h2>
-            <form id="orderForm" style="
-    display: grid;
-    gap: .5rem;
-    margin-top: 1rem;
-">
+            <form class="form1" id="orderForm">
                 <label for="cardType">Card Type Preference:</label>
-                <select name="cardType" id="cardType" style="
-    padding: .5rem;
-    border-radius: .5rem;
+                <select class="select1" name="cardType" id="cardType" style="
+   
 ">
                     <option value="Visa">Visa</option>
                     <option value="MasterCard">MasterCard</option>
@@ -297,31 +212,20 @@
                 </select>
 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required="" style="
-    padding: .5rem;
-    border-radius: .5rem;
-">
+                <input type="email" name="email" id="email" required="" >
 
                 <label for="address">Delivery Address:</label>
                 <textarea name="address" id="address" required=""></textarea>
 
                 <label for="shippingPackage">Shipping Package:</label>
-                <select name="shippingPackage" id="shippingPackage" style="
-    border-radius: .5rem;
-    padding: .5rem;
-">
+                <select class="sel3" name="shippingPackage" id="shippingPackage">
                     <option value="1">Next Day ($700)</option>
                     <option value="2">Three Days ($400)</option>
                     <option value="3">Seven Days ($250)</option>
                 </select>
 
-                <input type="submit" value="Place Order" style="
-    padding: .5rem;
-    border: none;
-    background: black;
-    color: white;
-    border-radius: .;
-">
+                <input type="submit" value="Place Order">
+
             </form>
         </div>
     </div>
@@ -408,27 +312,16 @@
             // Display a modal with payment information
             var modalContent = ` 
              
-    <div class="checkmark"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16" style="
-    width: 3rem;
-    height: 3rem;
-    fill: #28c101;
-    margin-bottom: 1rem;
-">
+    <div class="checkmark2"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16" >
+
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
 </svg></div>
 <h2>Order Placed Successfully</h2>
 
-  <div class="btm" style="
-    position: fixed;
-    bottom: 2rem;
-">
-<div class="asd" style="    color: #4f4e4e;
-    border: 1px solid #4f4e4e;
-    border-radius: 1rem;
-    padding: .5rem;
-    padding-top: 1rem;
-    margin-right: 1rem;">
+  <div class="btm2">
 
+<div class="asd2"     
+   
 <p style="text-align:center">Your order has been placed successfully. You selected the ${selectedPackages} delivery method.</p>
                 <p style="text-align:center">Pay a shipping charge of ${amount} to the address below so we can process your card delivery immediately</p>
                 <p style="text-align:center">
